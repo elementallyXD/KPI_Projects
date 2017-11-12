@@ -1,0 +1,4 @@
+﻿  Accound.cpp
+d:\projects\с++ simple\classbank\classbank\accound.cpp(8): warning C4244: '=': conversion from 'double' to 'ui', possible loss of data
+  ClassBank.vcxproj -> D:\Projects\С++ Simple\ClassBank\Debug\ClassBank.exe
+  ClassBank.vcxproj -> D:\Projects\С++ Simple\ClassBank\Debug\ClassBank.pdb (Partial PDB)

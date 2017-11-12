@@ -1,0 +1,5 @@
+﻿  Menu.cpp
+d:\projects\с++ simple\mylibrary\mylibrary\menu.cpp(16): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'char *'
+  d:\projects\с++ simple\mylibrary\mylibrary\menu.cpp(16): note: consider using '%hhd' in the format string
+  MyLibrary.vcxproj -> D:\Projects\С++ Simple\MyLibrary\Debug\MyLibrary.exe
+  MyLibrary.vcxproj -> D:\Projects\С++ Simple\MyLibrary\Debug\MyLibrary.pdb (Partial PDB)
