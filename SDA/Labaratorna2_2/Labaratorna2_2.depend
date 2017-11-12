@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1488454948 source:d:\projects\cda\labaratorna2_2\main.c
+	<stdio.h>
+	<stdlib.h>
+
