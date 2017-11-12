@@ -1,0 +1,5 @@
+﻿  TestScanner.c
+TestScanner.c(35): warning C4047: '=': 'FILE *' differs in levels of indirection from 'int'
+TestScanner.c(36): warning C4047: '=': 'FILE *' differs in levels of indirection from 'int'
+TestScanner.c(39): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+LINK : fatal error LNK1104: cannot open file 'D:\Projects\Program\3 sms\Lab2_OOP\Release\Lab2_OOP.exe'

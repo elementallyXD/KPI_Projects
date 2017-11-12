@@ -1,0 +1,12 @@
+﻿  TestScanner.c
+  Scanner.c
+d:\projects\program\3 sms\lab2_oop\lab2_oop\scanner.c(21): warning C4098: 'create_db': 'void' function returning a value
+d:\projects\program\3 sms\lab2_oop\lab2_oop\scanner.c(22): warning C4098: 'create_db': 'void' function returning a value
+d:\projects\program\3 sms\lab2_oop\lab2_oop\scanner.c(68): warning C4098: 'print_db': 'void' function returning a value
+d:\projects\program\3 sms\lab2_oop\lab2_oop\scanner.c(71): warning C4098: 'print_db': 'void' function returning a value
+d:\projects\program\3 sms\lab2_oop\lab2_oop\scanner.c(74): warning C4098: 'print_db': 'void' function returning a value
+d:\projects\program\3 sms\lab2_oop\lab2_oop\scanner.c(121): warning C4098: 'PrintIDX': 'void' function returning a value
+d:\projects\program\3 sms\lab2_oop\lab2_oop\scanner.c(125): warning C4098: 'PrintIDX': 'void' function returning a value
+  Generating Code...
+  Lab2_OOP.vcxproj -> D:\Projects\Program\3 sms\Lab2_OOP\Debug\Lab2_OOP.exe
+  Lab2_OOP.vcxproj -> D:\Projects\Program\3 sms\Lab2_OOP\Debug\Lab2_OOP.pdb (Full PDB)

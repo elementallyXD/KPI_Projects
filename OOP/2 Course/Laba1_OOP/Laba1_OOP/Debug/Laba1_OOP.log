@@ -1,0 +1,12 @@
+﻿  FunctionArgz.c
+d:\projects\program\3 sms\laba1_oop\laba1_oop\functionargz.c(36): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+d:\projects\program\3 sms\laba1_oop\laba1_oop\functionargz.c(56): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+d:\projects\program\3 sms\laba1_oop\laba1_oop\functionargz.c(70): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+d:\projects\program\3 sms\laba1_oop\laba1_oop\functionargz.c(76): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+d:\projects\program\3 sms\laba1_oop\laba1_oop\functionargz.c(105): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+d:\projects\program\3 sms\laba1_oop\laba1_oop\functionargz.c(173): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+d:\projects\program\3 sms\laba1_oop\laba1_oop\functionargz.c(212): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+  ArgzTest.c
+  Generating Code...
+  Laba1_OOP.vcxproj -> D:\Projects\Program\3 sms\Laba1_OOP\Debug\Laba1_OOP.exe
+  Laba1_OOP.vcxproj -> D:\Projects\Program\3 sms\Laba1_OOP\Debug\Laba1_OOP.pdb (Full PDB)
