@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1481460158 source:d:\projects\program\laba\labaratorna#6codeb\main.cpp
+	<iostream>
+	<conio.h>
+	<string>
+

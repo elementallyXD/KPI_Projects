@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\projects\program\laba\laba5.1.1\laba5.1.1\source.cpp(44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Laba5.1.1.vcxproj -> D:\Projects\Program\laba\Laba5.1.1\Debug\Laba5.1.1.exe
+  Laba5.1.1.vcxproj -> D:\Projects\Program\laba\Laba5.1.1\Debug\Laba5.1.1.pdb (Partial PDB)

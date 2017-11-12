@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1480940720 source:d:\projects\program\laba\laba5.codeblock\main.cpp
+	<iostream>
+	<conio.h>
+	<iomanip>
+	<cstring>
+	<string.h>
+	<fstream>
+

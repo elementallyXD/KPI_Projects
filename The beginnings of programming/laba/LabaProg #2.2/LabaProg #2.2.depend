@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1489689278 source:d:\projects\program\laba\labaprog #2.2\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\projects\program\laba\laba4\laba4\source.cpp(39): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  laba4.vcxproj -> D:\Projects\Program\laba\laba4\Debug\laba4.exe
+  laba4.vcxproj -> D:\Projects\Program\laba\laba4\Debug\laba4.pdb (Partial PDB)
