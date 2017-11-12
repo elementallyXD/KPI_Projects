@@ -21,6 +21,8 @@ int main()
 		printf("Error");
 		exit(1);
 	}
+
+
 	/*reindex("Scanners.db");
 
 	add_scanner("Scanners.db", "Asus;AS1055;2009;99.99;210;297");
