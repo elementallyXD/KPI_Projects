@@ -3,39 +3,42 @@
 *These functions are declared in the include file "Scanner.h".
 *author: Bidyak Mikhailo
 *written: 03/11/2017
-*last modified: 03/11/2017
+*last modified: 21/11/2017
 ************************************************************************/
 
 #include "Scanner.h"
 
 int main() 
 {
-	printf("\t\t\tDATA BASE LAB - 2\n\tFirst List of Scanners:\n");
+	printf("\t\t\tDATA BASE LAB - 2\n\tFirst List of Scanners CSV FILE:\n");
+	
 	create_db("Scanners.csv", "db.bin");
-	printf("\n\t DB file:\n");
+	printf("\n\t First List of Scanners DB file:\n");
 	print_db("db.bin");
+	
+	reindex("db.bin");
+	
+	printf("\nAdd scanner: \"ASUS;AS1055;2016;199.99;1210;1997\"\n");
+	add_scanner("db.bin", "ASUS;AS1055;2016;199.99;1210;1997");
+	print_db("db.bin");
+	reindex("db.bin");
+	
+	printf("\nDell scanner with 5 id: \n");
+	del_scanner("db.bin", 5);
+	print_db("db.bin");
+	reindex("db.bin");
 
-	if (make_index("db.bin", "Index.idx") == 1) PrintIDX("Index.idx");
-	else 
-	{
-		printf("Error");
-		exit(1);
-	}
-
-
-	/*reindex("Scanners.db");
-
-	add_scanner("Scanners.db", "Asus;AS1055;2009;99.99;210;297");
-	print_db("Scanners.db");
-
-	del_scanner("Scanners.db", 5);
-	print_db("Scanners.db");
-
-	RECORD_SET* rs = select("Scanners.db", "manufacturer", "Asus");
+	printf("\nFuction Select: \n");
+	RECORD_SET* rs = select("db.bin", "year", "2016");
 	print_rec_set(rs);
+	
+	printf("\n\tIDX file_name: \n");
+	readIDX("manufacturer.idx");
 
-	rs = get_recs_by_index("Scanners.db", "manufacturer");
-	print_rec_set(rs); */
+	printf("\tFunction recs_by_index: \n");
+	rs = get_recs_by_index("db.bin", "manufacturer.idx");
+	print_rec_set(rs);
+	
 	_getch();
 	return 0;
 }
