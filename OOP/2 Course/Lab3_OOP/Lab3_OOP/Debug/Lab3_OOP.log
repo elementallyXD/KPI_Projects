@@ -1,0 +1,6 @@
+﻿  Test_cArray.cpp
+  cArray.cpp
+  Generating Code...
+d:\mysimpleprograms\oop\2 course\lab3_oop\lab3_oop\carray.cpp(97): warning C4715: 'cArray::GetAt': not all control paths return a value
+d:\mysimpleprograms\oop\2 course\lab3_oop\lab3_oop\carray.cpp(175): warning C4715: 'cArray::operator[]': not all control paths return a value
+  Lab3_OOP.vcxproj -> D:\MySimplePrograms\OOP\2 Course\Lab3_OOP\Debug\Lab3_OOP.exe
